@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import AvailableFoods from './pages/AvailableFood/AvailableFood';
-import Header from './components/Header/Header';
-import Homepage from './pages/Homepage/Homepage';
+import Header from './components/header/header';
+import Homepage from './pages/homepage/Homepage';
 import SingleFood from './pages/SingleFood/SingleFood';
 import About from './pages/About/About'
 import Signup from './pages/Signup/Signup';

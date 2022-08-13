@@ -50,7 +50,7 @@ function FoodList({
                 </IconButton> */}
                 <Button size="small">
 
-                  <Link className="moreinfo" to={`/Food/${food._id}`}>
+                  <Link className="moreinfo" to={`/food/${food._id}`}>
                   More info about this food
 
                   </Link>

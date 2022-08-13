@@ -37,12 +37,7 @@ const SingleFood = (props) => {
       SetAvailable(!Available)
 
       props.onClickGrabFood();
-      // window.location.reload();
       
-      
-      // Auth.login(data.addProfile.tokon
-
-      // console.log(`Food doesn't exist`)
     }
   }
  
@@ -56,7 +51,7 @@ const SingleFood = (props) => {
       <div className="card_container">
         <h2> The food was purchased and is no longer available</h2>
         <button className='grab_button' > 
-          <Link  to={`/Foods`}>
+          <Link  to={`/foods`}>
           Return to the donations page.
           </Link> 
         </button>
@@ -96,7 +91,7 @@ const SingleFood = (props) => {
         </div>
       </div>
       <button className='grab_button'> 
-        <Link to={`/Foods`}>
+        <Link to={`/foods`}>
           Return to the donations page.
         </Link> 
          

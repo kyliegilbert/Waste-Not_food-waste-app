@@ -1,7 +1,7 @@
 
 import React from "react"
 import { Link } from 'react-router-dom';
-import "./Header.css"
+import "./header.css"
 
 export default function Header() {
   return (
@@ -24,19 +24,24 @@ export default function Header() {
             <ul className="nav-menu nav-menu_visible">
               
               <li>
-                <a className="nav-menu-item nav-menu-link .nav-menu-link_active" href="/">Home</a>
+                <Link className="nav-menu-item nav-menu-link .nav-menu-link_active" to="/">Home</Link>
+                {/* <a className="nav-menu-item nav-menu-link .nav-menu-link_active" href="/">Home</a> */}
               </li>
               <li>
-                <a className="nav-menu-item nav-menu-link" href="/about">About</a>
+              <Link className="nav-menu-item nav-menu-link .nav-menu-link_active" to="/about">About</Link>
+                {/* <a className="nav-menu-item nav-menu-link" href="/about">About</a> */}
               </li>
               <li>
-                <a className="nav-menu-item nav-menu-link" href="/foods">Donations</a>
+              <Link className="nav-menu-item nav-menu-link .nav-menu-link_active" to="/foods">Donations</Link>
+                {/* <a className="nav-menu-item nav-menu-link" href="/foods">Donations</a> */}
               </li>
               <li>
-                <a className="nav-menu-item nav-menu-link" href="/login">Log in</a>
+              <Link className="nav-menu-item nav-menu-link .nav-menu-link_active" to="/login">Login</Link>
+                {/* <a className="nav-menu-item nav-menu-link" href="/login">Log in</a> */}
               </li>
               <li>
-                <a className="nav-menu-item nav-menu-link" href="/signup">Sign Up</a>
+              <Link className="nav-menu-item nav-menu-link .nav-menu-link_active" to="/signup">Signup</Link>
+                {/* <a className="nav-menu-item nav-menu-link" href="/signup">Sign Up</a> */}
               </li>
             </ul>
 

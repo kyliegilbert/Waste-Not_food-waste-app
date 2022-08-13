@@ -9,19 +9,6 @@
   z-index: 2;
 }
 
-/* .header-container{
-    height: 150px;
-    width: 100%;
-    color:#F4C095;
-    background-color: #2f5500 ;
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    padding: 50px 20px;
-    justify-content: space-between;
-
-} */
 .nav-menu {
   display: flex;
   justify-content: space-between;
@@ -110,10 +97,6 @@ label {
     width: 85%;
     padding: 0;
     display: none;
-
-    height: calc(100% 200px);
-    overflow-y: auto;
-
   }
 
   .nav-menu-item {
